@@ -1,0 +1,30 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment (if any)
+venv/
+env/
+
+# Ignore dataset and large files
+dataset/
+*.csv
+*.xlsx
+
+# Ignore model files and logs
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.log
+
+# Ignore image/video files (optional: remove this if you want to upload them)
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
